@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon VPN Confirmation Window Closer",
+  "version": "1.0",
+  "description": "Automatically closes the Amazon VPN confirmation window when it pops up.",
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
